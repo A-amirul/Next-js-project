@@ -6,8 +6,10 @@ const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
-                <div className="flex-1">
-                    <Link href="/" className="btn btn-ghost text-xl">Hello Bangladesh</Link>
+                <div className="flex-1 gap-2">
+                    <Link href="/" className="text-red-700 text-xl">Hello Bangladesh</Link>
+                    <Link href="/about" className="text-xl mx-3">About</Link>
+                    <Link href="/contact" className="text-xl mx-3">Contact</Link>
                 </div>
                 <div className="flex-none">
                     <div className="dropdown dropdown-end">
